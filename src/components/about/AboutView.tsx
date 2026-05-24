@@ -44,8 +44,8 @@ export default function AboutView({ navigate }: AboutViewProps) {
             {/* Quick profile tags lists */}
             <div className="border-t border-b border-[#27272A]/70 py-4 text-xs space-y-2.5 text-[#A1A1AA] text-left">
               <div className="flex items-center space-x-2">
-                <span className="text-[#22D3A0] font-bold">🎓</span>
-                <span>IT College Student (Philippines)</span>
+                <span className="text-[#22D3A0] font-bold">🖥️</span>
+                <span>IT Specialist / Web Developer (Fullstack)</span>
               </div>
               <div className="flex items-center space-x-2">
                 <span className="text-[#22D3A0] font-bold">🛠️</span>
