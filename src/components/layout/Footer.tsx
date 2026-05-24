@@ -103,7 +103,7 @@ export default function Footer({ navigate }: FooterProps) {
         {/* Base line marker */}
         <div className="mt-12 border-t border-[#27272A] pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#52525B] space-y-4 sm:space-y-0">
           <div>
-            &copy; {currentYear} UPSKILL Education. Open Source GPL-3.0 License.
+            &copy; {currentYear} UPSKILL Education.
           </div>
           <div className="flex items-center space-x-1">
             <span>Built with dedication in the Philippines by</span>
