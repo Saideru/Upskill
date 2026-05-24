@@ -47,9 +47,8 @@ export default function Footer({ navigate }: FooterProps) {
             </p>
             {/* Social linkages */}
             <div className="flex space-x-4 text-[#52525B]">
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" className="hover:text-[#FAFAFA] transition-colors"><Twitter className="h-4 w-4" /></a>
-              <a href="https://discord.com" target="_blank" rel="noreferrer" className="hover:text-[#FAFAFA] transition-colors"><MessageSquare className="h-4 w-4" /></a>
-              <a href="https://youtube.com" target="_blank" rel="noreferrer" className="hover:text-[#FAFAFA] transition-colors"><Youtube className="h-4 w-4" /></a>
+              <a href="https://www.facebook.com/siedel.cabrales.5" target="_blank" rel="noreferrer" className="hover:text-[#FAFAFA] transition-colors"><Facebook className="h-4 w-4" /></a>
+              <a href="https://ph.linkedin.com/in/siedel-jeremy-cabrales-1029a6217" target="_blank" rel="noreferrer" className="hover:text-[#FAFAFA] transition-colors"><Linkedin className="h-4 w-4" /></a>
             </div>
           </div>
 
