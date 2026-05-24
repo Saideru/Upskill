@@ -58,7 +58,7 @@ export default function AboutView({ navigate }: AboutViewProps) {
             </div>
 
             <div className="flex justify-center space-x-4 pt-2 text-[#52525B]">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors"><Star className="h-5 w-5" /></a>
+              <a href="https://ph.linkedin.com/in/siedel-jeremy-cabrales-1029a6217" target="_blank" rel="noreferrer" className="hover:text-white transition-colors"><Star className="h-5 w-5" /></a>
             </div>
           </div>
 
