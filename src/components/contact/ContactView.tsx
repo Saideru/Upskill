@@ -113,7 +113,7 @@ export default function ContactView({ navigate }: ContactViewProps) {
               rel="noreferrer"
               className="w-full inline-flex h-11 items-center justify-center rounded bg-[#18181C] border border-[#27272A] px-4 text-xs font-bold text-white hover:bg-[#27272A] transition-colors"
             >
-              <Facebook  className="h-4 w-4 mr-2 text-emerald-400" />
+              <MessageSquare   className="h-4 w-4 mr-2 text-emerald-400" />
               Message Me on Facebook
             </a>
           </div>
