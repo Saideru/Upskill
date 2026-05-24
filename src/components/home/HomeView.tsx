@@ -393,69 +393,9 @@ export default function HomeView({ navigate }: HomeViewProps) {
             ))}
           </div>
 
-          {/* Discord CTA strip */}
-          <div className="mt-12 text-center rounded-xl border border-[#27272A] bg-gradient-to-r from-[#22D3A0]/5 to-[#22D3EE]/5 p-6 max-w-3xl mx-auto">
-            <p className="text-sm text-[#A1A1AA]">
-              Stuck on a syntax bug or having computer setup problems? Don\'t stress. 
-              Join our <strong className="text-[#FAFAFA]">UPSKILL Discord channel</strong> to get continuous peer feedback.
-            </p>
-            <div className="mt-4 flex justify-center">
-              <a 
-                href="https://discord.com" 
-                target="_blank" 
-                rel="noreferrer"
-                className="inline-flex h-9 items-center justify-center rounded bg-emerald-500 px-4 text-xs font-bold text-[#09090B] hover:scale-[1.01] transition-transform"
-              >
-                Join our Discord Server Community
-              </a>
-            </div>
-          </div>
         </div>
       </section>
 
-      {/* SECTION H: Newsletter / Free Cheatsheet capture */}
-      <section className="py-20 mx-auto max-w-4xl px-4 text-center">
-        <div className="rounded-2xl border border-[#27272A] bg-[#111114] p-8 md:p-12 relative overflow-hidden">
-          <div className="absolute top-0 right-0 h-44 w-44 rounded-full bg-blue-500/5 blur-3xl -z-10" />
-          
-          <h2 className="font-display text-2xl font-bold text-[#FAFAFA] sm:text-3xl">
-            Get the Ultimate Coding Cheatsheet Pack (Free)
-          </h2>
-          
-          <p className="text-sm text-[#A1A1AA] mt-3 max-w-xl mx-auto">
-            Subscribe to receive our structured Copiable ES6 Cheatsheet, Python standard library cheat cards, and weekly career search updates.
-          </p>
-
-          <div className="mt-8 max-w-md mx-auto">
-            {newsletterSubscribed ? (
-              <div className="rounded-lg border border-emerald-500/30 bg-emerald-500/10 p-4 text-xs font-bold text-[#22D3A0] flex items-center justify-center">
-                <CheckCircle className="h-4 w-4 mr-2" />
-                <span>Success! Ultimate Coding Cheatsheet sent to your inbox.</span>
-              </div>
-            ) : (
-              <form onSubmit={handleNewsletterSubmit} className="flex flex-col sm:flex-row gap-2">
-                <input
-                  type="email"
-                  required
-                  placeholder="name@email.com"
-                  value={emailInput}
-                  onChange={(e) => setEmailInput(e.target.value)}
-                  className="flex-grow rounded-lg border border-[#3F3F46] bg-[#09090B] px-4 py-2.5 text-sm font-medium text-[#FAFAFA] placeholder-[#52525B] focus:border-[#22D3A0] focus:ring-0 focus:outline-none"
-                />
-                <button
-                  type="submit"
-                  className="bg-[#22D3A0] text-[#09090B] font-bold text-sm px-6 py-2.5 rounded-lg cursor-pointer hover:scale-[1.01] active:scale-[0.98] transition-transform"
-                >
-                  Download Free Pack
-                </button>
-              </form>
-            )}
-            <p className="text-[11px] text-[#52525B] mt-3">
-              We care about your privacy. Zero spam logs, unsubscribe instantly anytime.
-            </p>
-          </div>
-        </div>
-      </section>
 
     </div>
   );
