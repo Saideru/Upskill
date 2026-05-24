@@ -1,0 +1,6 @@
+{
+  "name": "UPSKILL",
+  "description": "Learn to Code. For Free. Forever. Structured, beginner-friendly tutorials in C#, Java, Python, JavaScript, React, and Next.js.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
