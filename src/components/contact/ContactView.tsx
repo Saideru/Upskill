@@ -103,18 +103,18 @@ export default function ContactView({ navigate }: ContactViewProps) {
 
           {/* Support Community Discord Banner widget */}
           <div className="rounded-xl border border-[#27272A] bg-[#111114] p-6 space-y-4">
-            <h3 className="font-display text-sm font-bold uppercase tracking-wider text-white">Join the Community</h3>
+            <h3 className="font-display text-sm font-bold uppercase tracking-wider text-white">Follow Me on Facebook</h3>
             <p className="text-sm text-[#A1A1AA] leading-relaxed">
-              Connect with hundreds of fellow programmers on Discord. Get instant compile tips, career suggestions, and share your capstone graduates badges.
+              Connect with me on Facebook for a chat or two
             </p>
             <a 
-              href="https://discord.com" 
+              href="https://www.facebook.com/siedel.cabrales.5" 
               target="_blank" 
               rel="noreferrer"
               className="w-full inline-flex h-11 items-center justify-center rounded bg-[#18181C] border border-[#27272A] px-4 text-xs font-bold text-white hover:bg-[#27272A] transition-colors"
             >
-              <MessageSquare className="h-4 w-4 mr-2 text-emerald-400" />
-              Join the Discord Community
+              <Facebook  className="h-4 w-4 mr-2 text-emerald-400" />
+              Message Me on Facebook
             </a>
           </div>
 
